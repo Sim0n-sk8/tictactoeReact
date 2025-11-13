@@ -101,7 +101,7 @@ function ModeSelection({ onSelect, onSetDifficulty }: { onSelect: (mode: Mode)=>
   const [difficulty, setDifficulty] = useState<Difficulty>("Medium");
   return (
     <div className="modeScreen">
-      <h1>Grits</h1>
+      <h1>GRIDz</h1>
       <h2>Choose Mode & Difficulty</h2>
       <div className="difficultyButtons">
         {["Easy","Medium","Hard"].map(d=>(
